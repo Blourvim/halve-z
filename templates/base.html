@@ -36,6 +36,7 @@
   {% block left %}
         <h1 class="section-title">{%- block page_title %}{% if page.title %}{{ page.title }}{% elif section.title %}{{ section.title }}{% elif term.name %}{{ '#' ~ term.name }}{% elif taxonomy.name %}{{ taxonomy.name | title }}{% endif %}{% endblock page_title %}</h1>
   {% endblock left %}
+    <p class="accreditation">Image by {{ config.extra.images.home_author}}</p>
       </div>
     </div>
     <div class="block-right">

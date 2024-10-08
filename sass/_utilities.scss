@@ -3,6 +3,17 @@
   width: 100%;
   height: auto;
 }
+.accreditation {
+    font-size: 0.6rem; /* Slightly smaller font size */
+    color: rgba(255, 255, 255, 0.7); /* Semi-transparent white text for visibility over background */
+    text-align: right; /* Aligns the text to the right */
+    margin-top: 10px; /* Adds some spacing from the content */
+    font-style: italic; /* Italicize to differentiate it */
+    position: absolute; /* Ensure it stays fixed in a specific place */
+    bottom: 10px; /* Positions it at the bottom of the div */
+    right: 10px; /* Adds space from the right edge */
+    z-index: 1; /* Ensures it stays above other elements */
+}
 
 .align-left {
   @include clearfix();
